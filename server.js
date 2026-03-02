@@ -14,7 +14,7 @@ const startServer = async () => {
     initMQTT();
 
     app.listen(PORT, () => {
-      console.log(`⚡ LUMINEST Backend active on port ${PORT}`);
+      console.log(`⚡ LUMINEST active on port ${PORT}`);
     });
   } catch (error) {
     console.error('Failed to start server:', error);
